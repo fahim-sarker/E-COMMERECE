@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.slick-active .sahed{
+    border-right: 2px solid #000 !important;
+}
+@media(max-width:640px){
+    .sahed{
+        padding: 0 !important;
+        left: 0 !important;
+    }
+    .slick-dots{
+        left: 15px !important;
+    }
+}
